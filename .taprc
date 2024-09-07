@@ -1,8 +1,3 @@
-ts: false
-jsx: false
-flow: false
-coverage: false
-nyc-arg: [--exclude=out]
-
+disable-coverage: true
 files:
-  - test/test.js
+  - test/*.{js,mjs}
