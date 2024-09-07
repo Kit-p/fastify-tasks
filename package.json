@@ -1,0 +1,49 @@
+{
+  "name": "@kit-p/fastify-tasks",
+  "version": "1.0.0",
+  "description": "Tasks tracking plugin for Fastify",
+  "main": "index.js",
+  "type": "commonjs",
+  "types": "types/index.d.ts",
+  "scripts": {
+    "example": "node examples/example.js",
+    "example-typescript": "npx ts-node types/index.test-d.ts",
+    "lint": "standard",
+    "test": "npm run test:unit && npm run test:typescript",
+    "test:unit": "tap",
+    "test:typescript": "tsd"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kit-p/fastify-tasks.git"
+  },
+  "keywords": [
+    "fastify",
+    "tasks"
+  ],
+  "author": "Kit PANG",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kit-p/fastify-tasks/issues"
+  },
+  "homepage": "https://github.com/Kit-p/fastify-tasks#readme",
+  "dependencies": {
+    "fastify-plugin": "^4.0.0"
+  },
+  "devDependencies": {
+    "@fastify/pre-commit": "^2.0.2",
+    "@types/node": "^20.1.0",
+    "cross-env": "^7.0.2",
+    "fastify": "^4.0.0-rc.2",
+    "standard": "^17.0.0",
+    "tap": "^16.0.0",
+    "tsd": "^0.31.0"
+  },
+  "pre-commit": [
+    "lint",
+    "test"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}
