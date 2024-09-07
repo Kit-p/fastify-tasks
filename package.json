@@ -1,6 +1,6 @@
 {
   "name": "@kit-p/fastify-tasks",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Tasks tracking plugin for Fastify",
   "main": "index.js",
   "type": "commonjs",
