@@ -1,7 +1,7 @@
 ts: false
 jsx: false
 flow: false
-coverage: true
+coverage: false
 nyc-arg: [--exclude=out]
 
 files:
