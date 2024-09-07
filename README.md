@@ -1,4 +1,4 @@
-# @fastify/view
+# @kit-p/fastify-tasks
 
 ![CI](https://github.com/Kit-p/fastify-tasks/workflows/CI/badge.svg)
 [![NPM version](https://img.shields.io/npm/v/@kit-p/fastify-tasks.svg?style=flat)](https://www.npmjs.com/package/@kit-p/fastify-tasks)
