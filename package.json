@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/Kit-p/fastify-tasks#readme",
   "dependencies": {
-    "fastify-plugin": "^4.0.0"
+    "fastify-plugin": "^5.0.1"
   },
   "devDependencies": {
     "@fastify/pre-commit": "^2.0.2",
