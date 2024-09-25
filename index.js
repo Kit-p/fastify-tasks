@@ -97,7 +97,7 @@ async function fastifyTasks (fastify) {
 }
 
 module.exports = fp(fastifyTasks, {
-  fastify: '4.x',
+  fastify: '5.x',
   name: pluginName
 })
 module.exports.default = fastifyTasks
