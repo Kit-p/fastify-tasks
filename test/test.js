@@ -75,7 +75,7 @@ test('fastify.tasks.add and fastify.tasks.remove works with an unnamed task', t 
   t.plan(4)
   const logger = new Logger()
   const fastify = Fastify({
-    logger,
+    loggerInstance: logger,
     disableRequestLogging: true
   })
 
@@ -108,7 +108,7 @@ test('fastify.tasks.add and fastify.tasks.remove works with a named task', t => 
   t.plan(5)
   const logger = new Logger()
   const fastify = Fastify({
-    logger,
+    loggerInstance: logger,
     disableRequestLogging: true
   })
 
