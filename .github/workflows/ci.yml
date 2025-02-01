@@ -20,7 +20,7 @@ jobs:
     permissions:
       contents: write
       pull-requests: write
-    uses: fastify/workflows/.github/workflows/plugins-ci.yml@v5.0.1
+    uses: fastify/workflows/.github/workflows/plugins-ci.yml@v5.0.2
     with:
       license-check: true
       lint: true
