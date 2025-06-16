@@ -32,7 +32,7 @@
   },
   "devDependencies": {
     "@fastify/pre-commit": "^2.0.2",
-    "@types/node": "^22.5.4",
+    "@types/node": "^24.0.1",
     "cross-env": "^7.0.2",
     "fastify": "^5.0.0",
     "simple-get": "^4.0.1",
