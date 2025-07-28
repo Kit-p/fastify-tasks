@@ -33,7 +33,7 @@
   "devDependencies": {
     "@fastify/pre-commit": "^2.0.2",
     "@types/node": "^24.0.1",
-    "cross-env": "^7.0.2",
+    "cross-env": "^10.0.0",
     "fastify": "^5.0.0",
     "simple-get": "^4.0.1",
     "standard": "^17.0.0",
